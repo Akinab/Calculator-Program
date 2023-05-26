@@ -54,9 +54,12 @@ def main():
                 print("\nResult of Division:", result)
         else:
             print("\nInvalid choice. Please try again.")
-            
+
         answer = input("Do you want to try again? (y/n): ")
         if answer.lower() != 'y':
             print("\n\nThank you for using this program!")
             break
         print()
+
+if __name__ == '__main__':
+    main()
