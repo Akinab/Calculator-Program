@@ -34,3 +34,7 @@ def main():
         print("2. Subtraction")
         print("3. Multiplication")
         print("4. Division")
+
+        choice = input("\nEnter your choice (1-4): ")
+        num1 = float(input("Enter the first number: "))
+        num2 = float(input("Enter the second number: "))
