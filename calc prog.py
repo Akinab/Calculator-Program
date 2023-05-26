@@ -7,3 +7,5 @@ details ()
 
 print("\nCalculator Program")
 print("-------------------")
+
+class Calculator:
