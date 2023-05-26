@@ -42,3 +42,6 @@ def main():
         if choice == '1':
             result = calc.add(num1, num2)
             print("\nResult of Addition:", result)
+        elif choice == '2':
+            result = calc.subtract(num1, num2)
+            print("\nResult of Subtraction:", result)
