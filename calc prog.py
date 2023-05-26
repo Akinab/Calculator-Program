@@ -27,3 +27,10 @@ class Calculator:
 
 def main():
     calc = Calculator()
+
+    while True:
+        print("\nChoose a math operation:")
+        print("\n1. Addition")
+        print("2. Subtraction")
+        print("3. Multiplication")
+        print("4. Division")
