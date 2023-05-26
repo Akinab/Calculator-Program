@@ -52,3 +52,5 @@ def main():
             result = calc.divide(num1, num2)
             if result is not None:
                 print("\nResult of Division:", result)
+        else:
+            print("\nInvalid choice. Please try again.")
