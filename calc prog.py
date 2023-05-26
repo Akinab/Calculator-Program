@@ -21,3 +21,6 @@ class Calculator:
     def divide(self, num1, num2):
         if num2 != 0:
             return num1 / num2
+        else:
+            print("Error: Division by zero is not allowed!")
+            return None
