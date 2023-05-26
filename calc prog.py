@@ -48,3 +48,7 @@ def main():
         elif choice == '3':
             result = calc.multiply(num1, num2)
             print("\nResult of Multiplication:", result)
+        elif choice == '4':
+            result = calc.divide(num1, num2)
+            if result is not None:
+                print("\nResult of Division:", result)
