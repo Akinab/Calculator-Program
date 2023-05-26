@@ -45,3 +45,6 @@ def main():
         elif choice == '2':
             result = calc.subtract(num1, num2)
             print("\nResult of Subtraction:", result)
+        elif choice == '3':
+            result = calc.multiply(num1, num2)
+            print("\nResult of Multiplication:", result)
