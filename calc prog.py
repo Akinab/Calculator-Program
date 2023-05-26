@@ -24,3 +24,6 @@ class Calculator:
         else:
             print("Error: Division by zero is not allowed!")
             return None
+
+def main():
+    calc = Calculator()
