@@ -38,3 +38,7 @@ def main():
         choice = input("\nEnter your choice (1-4): ")
         num1 = float(input("Enter the first number: "))
         num2 = float(input("Enter the second number: "))
+
+        if choice == '1':
+            result = calc.add(num1, num2)
+            print("\nResult of Addition:", result)
