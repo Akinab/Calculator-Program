@@ -8,7 +8,7 @@ details ()
 print("\nCalculator Program")
 print("-------------------")
 
-class Calculator:
+class ScientificCalculator():
     def add(self, num1, num2):
         return num1 + num2
     
