@@ -10,3 +10,6 @@ print("\nThe difference of these numbers is:", result)
 
 result = calc.multiply(234, 89)
 print("\nThe product of these numbers is:", result)
+
+result = calc.divide(74456, 786)
+print("\nThe quotient of these numbers is:", result)
